@@ -1,0 +1,634 @@
+[
+  {
+    "word": "Arma",
+    "latin": "Arma",
+    "dictionary": "arma, armōrum, n.pl.",
+    "english": "weapons, arms",
+    "note": "acc. pl. direct object of \"canō\"",
+    "line": 1
+  },
+  {
+    "word": "virum",
+    "latin": "virum",
+    "dictionary": "vir, virī, m.",
+    "english": "man",
+    "note": "acc. s. direct object of \"canō\"",
+    "line": 1
+  },
+  {
+    "word": "que",
+    "latin": "que",
+    "dictionary": "-que",
+    "english": "and, both",
+    "note": "",
+    "line": 1
+  },
+  {
+    "word": "canō,",
+    "latin": "canō,",
+    "dictionary": "canō, -ere, cecinī, cantus",
+    "english": "to sing, sing of",
+    "note": "1st s. pres. act. indic.",
+    "line": 1
+  },
+  {
+    "word": "Troiae",
+    "latin": "Troiae",
+    "dictionary": "Troia, Troiae, f.",
+    "english": "Troy",
+    "note": "gen. s. dependent on \"ōrīs\"",
+    "line": 1
+  },
+  {
+    "word": "quī",
+    "latin": "quī",
+    "dictionary": "quī, quae, quod",
+    "english": "who, which, that",
+    "note": "nom. m. s. (referring to \"virum\") subject of \"vēnit\"",
+    "line": 1
+  },
+  {
+    "word": "prīmus",
+    "latin": "prīmus",
+    "dictionary": "prīmus, -a, -um",
+    "english": "first",
+    "note": "nom. m. s. modifying \"quī\"",
+    "line": 1
+  },
+  {
+    "word": "ab",
+    "latin": "ab",
+    "dictionary": "ā, ab (with abl.)",
+    "english": "away from, from; by",
+    "note": "prep. governing \"ōrīs\"",
+    "line": 1
+  },
+  {
+    "word": "ōrīs",
+    "latin": "ōrīs",
+    "dictionary": "ōra, ōrae, f.",
+    "english": "shore",
+    "note": "abl. pl. object of \"ab\"",
+    "line": 1
+  },
+  {
+    "word": "Ītaliam",
+    "latin": "Ītaliam",
+    "dictionary": "Ītalia, Ītaliae, f.",
+    "english": "Italy",
+    "note": "acc. s. place to which",
+    "line": 2
+  },
+  {
+    "word": "fātō",
+    "latin": "fātō",
+    "dictionary": "fātum, fātī, n.",
+    "english": "destiny, fate",
+    "note": "abl. s. cause",
+    "line": 2
+  },
+  {
+    "word": "profugus",
+    "latin": "profugus",
+    "dictionary": "profugus, -a, -um",
+    "english": "exiled, fugitive",
+    "note": "nom. m. s. modifying \"quī\"",
+    "line": 2
+  },
+  {
+    "word": "Lāvīnia",
+    "latin": "Lāvīnia",
+    "dictionary": "Lāvīnius, -a, -um",
+    "english": "Lavinian",
+    "note": "acc. n. pl. modifying \"lītora\"",
+    "line": 2
+  },
+  {
+    "word": "que",
+    "latin": "que",
+    "dictionary": "-que",
+    "english": "and, both",
+    "note": "",
+    "line": 2
+  },
+  {
+    "word": "vēnit",
+    "latin": "vēnit",
+    "dictionary": "veniō, -īre, vēnī, ventūrus",
+    "english": "to come",
+    "note": "3rd s. perf. act. indic.",
+    "line": 2
+  },
+  {
+    "word": "lītora,",
+    "latin": "lītora,",
+    "dictionary": "lītus, lītoris, n.",
+    "english": "shore",
+    "note": "acc. pl. place to which",
+    "line": 3
+  },
+  {
+    "word": "multum",
+    "latin": "multum",
+    "dictionary": "multum (adv.)",
+    "english": "much, very",
+    "note": "",
+    "line": 3
+  },
+  {
+    "word": "ille",
+    "latin": "ille",
+    "dictionary": "ille, illa, illud",
+    "english": "that; he, she, it",
+    "note": "nom. m. s. appositive of \"quī\"",
+    "line": 3
+  },
+  {
+    "word": "et",
+    "latin": "et",
+    "dictionary": "et",
+    "english": "and, both",
+    "note": "",
+    "line": 3
+  },
+  {
+    "word": "terrīs",
+    "latin": "terrīs",
+    "dictionary": "terra, terrae, f.",
+    "english": "earth, land",
+    "note": "abl. pl. place where",
+    "line": 3
+  },
+  {
+    "word": "iactātus",
+    "latin": "iactātus",
+    "dictionary": "iactō, -āre, -āvī, -ātus",
+    "english": "to toss",
+    "note": "perf. pass. part. nom. m. s. modifying \"ille\"",
+    "line": 3
+  },
+  {
+    "word": "et",
+    "latin": "et",
+    "dictionary": "et",
+    "english": "and, both",
+    "note": "",
+    "line": 3
+  },
+  {
+    "word": "altō",
+    "latin": "altō",
+    "dictionary": "altum, altī, n.",
+    "english": "sea, the deep",
+    "note": "abl. s. place where",
+    "line": 3
+  },
+  {
+    "word": "vī",
+    "latin": "vī",
+    "dictionary": "vīs, &mdash;, &mdash;, vim, vī, f.",
+    "english": "force, power, violence",
+    "note": "abl. s. means",
+    "line": 4
+  },
+  {
+    "word": "superum,",
+    "latin": "superum,",
+    "dictionary": "superī, superōrum, m.pl.",
+    "english": "gods above, celestial gods",
+    "note": "superum = superōrum: gen. pl. dependent on \"vī\"",
+    "line": 4
+  },
+  {
+    "word": "saevae",
+    "latin": "saevae",
+    "dictionary": "saevus, -a, -um",
+    "english": "fierce, cruel, violent",
+    "note": "gen. f. s. modifying \"Iūnōnis\"",
+    "line": 4
+  },
+  {
+    "word": "memorem",
+    "latin": "memorem",
+    "dictionary": "memor, memoris (gen.)",
+    "english": "mindful; unforgetting",
+    "note": "acc. f. s. modifying \"īram\"",
+    "line": 4
+  },
+  {
+    "word": "Iūnōnis",
+    "latin": "Iūnōnis",
+    "dictionary": "Iūnō, Iūnōnis, f.",
+    "english": "Juno (wife of Jupiter)",
+    "note": "gen. s. dependent on \"īram\"",
+    "line": 4
+  },
+  {
+    "word": "ob",
+    "latin": "ob",
+    "dictionary": "ob (with acc.)",
+    "english": "because of, on account of",
+    "note": "prep. governing \"īram\"",
+    "line": 4
+  },
+  {
+    "word": "īram,",
+    "latin": "īram,",
+    "dictionary": "īra, īrae, f.",
+    "english": "anger",
+    "note": "acc. s. object of \"ob\"",
+    "line": 4
+  },
+  {
+    "word": "multa",
+    "latin": "multa",
+    "dictionary": "multus, -a, -um",
+    "english": "much; (pl.) many",
+    "note": "acc. n. pl. direct object of \"passus\"",
+    "line": 5
+  },
+  {
+    "word": "quoque",
+    "latin": "quoque",
+    "dictionary": "quoque",
+    "english": "also, too",
+    "note": "",
+    "line": 5
+  },
+  {
+    "word": "et",
+    "latin": "et",
+    "dictionary": "et",
+    "english": "and, both; also, even",
+    "note": "",
+    "line": 5
+  },
+  {
+    "word": "bellō",
+    "latin": "bellō",
+    "dictionary": "bellum, bellī, n.",
+    "english": "war",
+    "note": "abl. s. place where",
+    "line": 5
+  },
+  {
+    "word": "passus,",
+    "latin": "passus,",
+    "dictionary": "patior, -ī, passus sum",
+    "english": "to suffer, endure",
+    "note": "perf. depon. part. nom. m. s. modifying \"ille\"",
+    "line": 5
+  },
+  {
+    "word": "dum",
+    "latin": "dum",
+    "dictionary": "dum",
+    "english": "while, until",
+    "note": "",
+    "line": 5
+  },
+  {
+    "word": "conderet",
+    "latin": "conderet",
+    "dictionary": "condō, -ere, condidī, conditus",
+    "english": "to found, establish",
+    "note": "3rd s. imperf. act. subj.",
+    "line": 5
+  },
+  {
+    "word": "urbem",
+    "latin": "urbem",
+    "dictionary": "urbs, urbis, f.",
+    "english": "city",
+    "note": "acc. s. direct object of \"īnferret\"",
+    "line": 5
+  },
+  {
+    "word": "īnferret",
+    "latin": "īnferret",
+    "dictionary": "īnferō, īnferre, intulī, inlātus",
+    "english": "to bring",
+    "note": "3rd s. imperf. act. subj.",
+    "line": 6
+  },
+  {
+    "word": "que",
+    "latin": "que",
+    "dictionary": "-que",
+    "english": "and, both",
+    "note": "",
+    "line": 6
+  },
+  {
+    "word": "deōs",
+    "latin": "deōs",
+    "dictionary": "deus, deī, m.",
+    "english": "god",
+    "note": "acc. pl. direct object of \"īnferret\"",
+    "line": 6
+  },
+  {
+    "word": "Latiō;",
+    "latin": "Latiō;",
+    "dictionary": "Latium, Latī, n.",
+    "english": "(region of central Italy)",
+    "note": "dat. s. direction",
+    "line": 6
+  },
+  {
+    "word": "genus",
+    "latin": "genus",
+    "dictionary": "genus, generis, n.",
+    "english": "offspring; race, nation",
+    "note": "nom. s. subject of understood \"sunt\" or \"veniunt\"",
+    "line": 6
+  },
+  {
+    "word": "unde",
+    "latin": "unde",
+    "dictionary": "unde",
+    "english": "from which (place), from where",
+    "note": "",
+    "line": 6
+  },
+  {
+    "word": "Latīnum",
+    "latin": "Latīnum",
+    "dictionary": "Latīnus, -a, -um",
+    "english": "Latin",
+    "note": "nom. n. s. modifying \"genus\"",
+    "line": 6
+  },
+  {
+    "word": "Albānī",
+    "latin": "Albānī",
+    "dictionary": "Albānus, -a, -um",
+    "english": "Alban, of Alba Longa",
+    "note": "nom. m. pl. modifying \"patrēs\"",
+    "line": 7
+  },
+  {
+    "word": "que",
+    "latin": "que",
+    "dictionary": "-que",
+    "english": "and, both",
+    "note": "",
+    "line": 7
+  },
+  {
+    "word": "patrēs",
+    "latin": "patrēs",
+    "dictionary": "pater, patris, m.",
+    "english": "father; forefather, ancestor",
+    "note": "nom. pl. subject of understood \"sunt\" or \"veniunt\"",
+    "line": 7
+  },
+  {
+    "word": "atque",
+    "latin": "atque",
+    "dictionary": "ac, atque",
+    "english": "and",
+    "note": "",
+    "line": 7
+  },
+  {
+    "word": "altae",
+    "latin": "altae",
+    "dictionary": "altus, -a, -um",
+    "english": "high, lofty, deep",
+    "note": "gen. f. s. modifying \"Rōmae\"",
+    "line": 7
+  },
+  {
+    "word": "moenia",
+    "latin": "moenia",
+    "dictionary": "moenia, moenium, n.pl.",
+    "english": "city walls; fortifications",
+    "note": "nom. pl. subject of understood \"sunt\" or \"veniunt\"",
+    "line": 7
+  },
+  {
+    "word": "Rōmae.",
+    "latin": "Rōmae.",
+    "dictionary": "Rōma, Rōmae, f.",
+    "english": "Rome",
+    "note": "gen. s. dependent on \"moenia\"",
+    "line": 7
+  },
+  {
+    "word": "Mūsa,",
+    "latin": "Mūsa,",
+    "dictionary": "Mūsa, Mūsae, f.",
+    "english": "Muse",
+    "note": "voc. s. direct address",
+    "line": 8
+  },
+  {
+    "word": "mihī",
+    "latin": "mihī",
+    "dictionary": "ego, meī, mihi, mē, mē",
+    "english": "I, me",
+    "note": "dat. s. indirect object of \"memorā\"",
+    "line": 8
+  },
+  {
+    "word": "causās",
+    "latin": "causās",
+    "dictionary": "causa, causae, f.",
+    "english": "cause, reason",
+    "note": "acc. pl. direct object of \"memorā\"",
+    "line": 8
+  },
+  {
+    "word": "memorā,",
+    "latin": "memorā,",
+    "dictionary": "memorō, -āre, -āvī, -ātus",
+    "english": "to relate, tell",
+    "note": "2nd s. pres. act. imper.",
+    "line": 8
+  },
+  {
+    "word": "quō",
+    "latin": "quō",
+    "dictionary": "quī, quae, quod",
+    "english": "who, which, that; what",
+    "note": "abl. n. s. modifying \"nūmine\"",
+    "line": 8
+  },
+  {
+    "word": "nūmine",
+    "latin": "nūmine",
+    "dictionary": "nūmen, nūminis, n.",
+    "english": "divine will, divine power; divinity, deity",
+    "note": "abl. s. absolute",
+    "line": 8
+  },
+  {
+    "word": "laesō",
+    "latin": "laesō",
+    "dictionary": "laedō, -ere, laesī, laesus",
+    "english": "to injure, offend",
+    "note": "perf. pass. part. abl. n. s. modifying \"nūmine\"",
+    "line": 8
+  },
+  {
+    "word": "quid",
+    "latin": "quid",
+    "dictionary": "quis, quid",
+    "english": "who, what",
+    "note": "acc. n. s. direct object of \"dolēns\"",
+    "line": 9
+  },
+  {
+    "word": "ve",
+    "latin": "ve",
+    "dictionary": "-ve",
+    "english": "or",
+    "note": "",
+    "line": 9
+  },
+  {
+    "word": "dolēns",
+    "latin": "dolēns",
+    "dictionary": "doleō, -ēre, -uī, -itūrus",
+    "english": "to grieve, grieve for",
+    "note": "pres. act. part. nom. f. s. modifying \"rēgīna\"",
+    "line": 9
+  },
+  {
+    "word": "rēgīna",
+    "latin": "rēgīna",
+    "dictionary": "rēgīna, rēgīnae, f.",
+    "english": "queen",
+    "note": "nom. s. subject of \"impulerit\"",
+    "line": 9
+  },
+  {
+    "word": "deum",
+    "latin": "deum",
+    "dictionary": "deus, deī, m.",
+    "english": "god",
+    "note": "deum = deōrum: gen. pl. dependent on \"rēgīna\"",
+    "line": 9
+  },
+  {
+    "word": "tot",
+    "latin": "tot",
+    "dictionary": "tot",
+    "english": "so many",
+    "note": "acc. m. pl. modifying \"cāsūs\"",
+    "line": 9
+  },
+  {
+    "word": "volvere",
+    "latin": "volvere",
+    "dictionary": "volvō, -ere, volvī, volūtus",
+    "english": "to roll; to undergo",
+    "note": "pres. act. infin. dependent on \"impulerit\"",
+    "line": 9
+  },
+  {
+    "word": "cāsūs",
+    "latin": "cāsūs",
+    "dictionary": "cāsus, cāsūs, m.",
+    "english": "accident, event; misfortune",
+    "note": "acc. pl. direct object of \"volvere\"",
+    "line": 9
+  },
+  {
+    "word": "īnsignem",
+    "latin": "īnsignem",
+    "dictionary": "īnsignis, -e",
+    "english": "remarkable, distinguished, glorious",
+    "note": "acc. m. s. modifying \"virum\"",
+    "line": 10
+  },
+  {
+    "word": "pietāte",
+    "latin": "pietāte",
+    "dictionary": "pietās, pietātis, f.",
+    "english": "dutifulness, respect (for the gods, country, family)",
+    "note": "abl. s. specification",
+    "line": 10
+  },
+  {
+    "word": "virum,",
+    "latin": "virum,",
+    "dictionary": "vir, virī, m.",
+    "english": "man",
+    "note": "acc. s. direct object of \"impulerit\"",
+    "line": 10
+  },
+  {
+    "word": "tot",
+    "latin": "tot ",
+    "dictionary": "tot",
+    "english": "so many",
+    "note": "acc. m. pl. modifying \"labōrēs\"",
+    "line": 10
+  },
+  {
+    "word": "adīre",
+    "latin": "adīre",
+    "dictionary": "adeō, adīre, adiī, aditūrus",
+    "english": "to approach, enter; to undertake",
+    "note": "pres. act. infin. dependent on \"impulerit\"",
+    "line": 10
+  },
+  {
+    "word": "labōrēs",
+    "latin": "labōrēs",
+    "dictionary": "labor, labōris, m.",
+    "english": "labor, work; hardship",
+    "note": "acc. pl. direct object of \"adīre\"",
+    "line": 10
+  },
+  {
+    "word": "impulerit.",
+    "latin": "impulerit.",
+    "dictionary": "impellō, -ere, impulī, impulsus",
+    "english": "to drive, impel; to compel",
+    "note": "3rd s. perf. act. subj.",
+    "line": 11
+  },
+  {
+    "word": "Tantae",
+    "latin": "Tantae",
+    "dictionary": "tantus, -a, -um",
+    "english": "so great, such great",
+    "note": "nom. f. pl. modifying \"īrae\"",
+    "line": 11
+  },
+  {
+    "word": "ne",
+    "latin": "ne",
+    "dictionary": "-ne",
+    "english": "(enclitic particle indicating a question)",
+    "note": "",
+    "line": 11
+  },
+  {
+    "word": "animīs",
+    "latin": "animīs",
+    "dictionary": "animus, animī, m.",
+    "english": "soul, heart; spirit; mind",
+    "note": "dat. pl. possession",
+    "line": 11
+  },
+  {
+    "word": "caelestibus",
+    "latin": "caelestibus",
+    "dictionary": "caelestis, -e",
+    "english": "celestial, divine",
+    "note": "dat. m. pl. modifying \"animīs\"",
+    "line": 11
+  },
+  {
+    "word": "īrae?",
+    "latin": "īrae?",
+    "dictionary": "īra, īrae, f.",
+    "english": "anger",
+    "note": "nom. pl. subject of an understood \"sunt\"",
+    "line": 11
+  }
+]
