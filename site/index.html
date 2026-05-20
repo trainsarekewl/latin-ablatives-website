@@ -19,37 +19,26 @@
   </header>
 
   <main>
-
-    <!-- Reading view -->
     <section class="view" id="view-reading">
-      <div class="controls">
-        <label class="toggle">
-          <input type="checkbox" id="hints-toggle" checked>
-          <span>Show hints on tap</span>
-        </label>
-      </div>
       <div id="passage" class="passage"></div>
     </section>
 
-    <!-- Quiz A -->
     <section class="view hidden" id="view-quizA">
       <div class="quiz-hd">
-        <span class="quiz-lbl">Quiz A — Is it ablative?</span>
+        <span class="quiz-lbl">Is it ablative?</span>
         <span id="streak-A" class="streak">Streak: 0</span>
       </div>
       <div id="quizA-content"></div>
     </section>
 
-    <!-- Quiz B -->
     <section class="view hidden" id="view-quizB">
       <div class="quiz-hd">
-        <span class="quiz-lbl">Quiz B — What use?</span>
+        <span class="quiz-lbl">What use of Ablative?</span>
         <span id="streak-B" class="streak">Streak: 0</span>
       </div>
       <div id="quizB-content"></div>
     </section>
 
-    <!-- Stats -->
     <section class="view hidden" id="view-stats">
       <h2>Statistics</h2>
       <div id="stats-content"></div>
@@ -57,14 +46,6 @@
 
   </main>
 
-  <!-- Word info tooltip (fixed bottom panel) -->
-  <div id="tip" class="tip" hidden>
-    <button id="tip-close" class="tip-close" aria-label="Close">×</button>
-    <div class="tip-dict"></div>
-    <div class="tip-en"></div>
-    <div class="tip-note"></div>
-  </div>
-
-  <script src="app.js"></script>
+<script src="app.js"></script>
 </body>
 </html>
