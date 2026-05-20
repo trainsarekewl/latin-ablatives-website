@@ -292,7 +292,7 @@ function renderStats() {
             `<tbody>${catRows}</tbody>` +
           `</table>` +
         `</div>`
-      : `<p class="empty">Answer Quiz B questions to see per-category stats.</p>`
+      : `<p class="empty">Answer Abl. Case Quiz questions to see per-category stats.</p>`
     ) +
     `<div class="card">` +
       `<button class="btn btn-danger" id="btn-reset">Reset all statistics</button>` +

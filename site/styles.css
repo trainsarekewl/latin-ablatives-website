@@ -147,7 +147,7 @@ main {
 
 .tip-dict { font-size: 1rem; font-weight: 600; margin-bottom: 0.2rem; }
 .tip-en   { font-size: 0.9rem; color: var(--muted); margin-bottom: 0.4rem; }
-.tip-note { font-family: var(--serif); font-size: 1rem; color: var(--accent); font-style: italic; }
+.tip-note { font-size: 0.875rem; color: var(--muted); }
 
 
 .quiz-hd {
@@ -156,15 +156,6 @@ main {
 }
 .quiz-lbl { font-weight: 500; }
 
-.streak {
-  font-size: 0.8rem;
-  padding: 0.2rem 0.7rem;
-  background: var(--abl-bg);
-  border: 1px solid var(--abl-bd);
-  border-radius: 999px;
-  color: var(--accent);
-  font-weight: 500;
-}
 
 .ctx {
   font-family: var(--serif);
@@ -232,7 +223,7 @@ main {
 }
 .d-dict { font-weight: 600; }
 .d-en   { color: var(--muted); font-style: italic; }
-.d-note { font-family: var(--serif); font-size: 1rem; color: var(--accent); }
+.d-note { font-size: 0.875rem; color: var(--muted); }
 
 .btn-next {
   background: var(--accent);
