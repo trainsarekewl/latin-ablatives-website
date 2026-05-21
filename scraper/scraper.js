@@ -2,8 +2,11 @@
 
 const fs = require('fs');
 
-const URL = 'https://nolatinbooks.blogspot.com/p/aeneid-i-1-11.html';
-const DEFAULT_OUTPUT = 'aeneid_i_1-11.json';
+// const URL = 'https://nolatinbooks.blogspot.com/p/aeneid-i-1-11.html';
+// const DEFAULT_OUTPUT = 'aeneid_i_1-11.json';
+
+const URL = 'https://nolatinbooks.blogspot.com/p/aeneid-i-12-22.html';
+const DEFAULT_OUTPUT = 'aeneid_i_12-22.json'
 
 function getAttr(attrString, name) {
   const re = new RegExp(`\\b${name}\\s*=\\s*(?:"([^"]*)"|'([^']*)')`, 'i');

@@ -93,6 +93,27 @@ main {
   border-radius: 2px;
 }
 
+.section-picker {
+  display: flex; gap: 0.4rem; flex-wrap: wrap;
+  margin-bottom: 1.25rem;
+}
+
+.section-btn {
+  font-family: var(--sans);
+  font-size: 0.875rem;
+  font-weight: 500;
+  padding: 0.35rem 0.9rem;
+  min-height: 36px;
+  border: 1.5px solid var(--border);
+  border-radius: 20px;
+  background: transparent;
+  color: var(--text);
+  cursor: pointer;
+  transition: border-color .15s, background .15s, color .15s;
+}
+.section-btn:hover { border-color: var(--accent); }
+.section-btn.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+
 .passage {
   font-family: var(--serif);
   font-size: 1.25rem;

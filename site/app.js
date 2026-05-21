@@ -1,5 +1,10 @@
-const DATA_URL = './data.json';
+const SECTIONS = [
+  { label: 'Aeneid I · 1–11',  url: './aeneid_i_1-11.json' },
+  { label: 'Aeneid I · 12–22', url: './aeneid_i_12-22.json' },
+];
 const STORAGE_KEY = 'latin-quiz-v1';
+
+let currentSection = 0;
 
 let words = [];
 let byLine = {};
@@ -44,8 +49,8 @@ function parseAblative(note) {
   return { isAblative: true, ablativeUse: use };
 }
 
-async function loadData() {
-  const res = await fetch(DATA_URL);
+async function loadData(url) {
+  const res = await fetch(url);
   if (!res.ok) throw new Error(`HTTP ${res.status}`);
   const raw = await res.json();
 
@@ -100,6 +105,21 @@ function showView(name) {
   if (name === 'quizA') nextQuestion('A');
   if (name === 'quizB') nextQuestion('B');
   if (name === 'stats') renderStats();
+}
+
+// section picker
+function renderSectionPicker() {
+  const picker = document.getElementById('section-picker');
+  picker.innerHTML = SECTIONS.map((s, i) =>
+    `<button class="section-btn${i === currentSection ? ' active' : ''}" data-section="${i}">${esc(s.label)}</button>`
+  ).join('');
+}
+
+async function switchSection(idx) {
+  currentSection = idx;
+  renderSectionPicker();
+  await loadData(SECTIONS[idx].url);
+  renderPassage();
 }
 
 // reading view
@@ -307,7 +327,13 @@ function renderStats() {
 }
 
 function init() {
+  renderSectionPicker();
   renderPassage();
+
+  document.getElementById('section-picker').addEventListener('click', e => {
+    const btn = e.target.closest('[data-section]');
+    if (btn) switchSection(Number(btn.dataset.section));
+  });
 
   // Navigation
   document.getElementById('nav').addEventListener('click', e => {
@@ -321,7 +347,7 @@ function init() {
   showView('reading');
 }
 
-loadData()
+loadData(SECTIONS[0].url)
   .then(init)
   .catch(err => {
     document.body.innerHTML =

@@ -1,0 +1,610 @@
+[
+  {
+    "word": "Urbs",
+    "latin": "Urbs",
+    "dictionary": "urbs, urbis, f.",
+    "english": "city",
+    "note": "nom. s. subject of \"fuit\"",
+    "line": 1
+  },
+  {
+    "word": "antīqua",
+    "latin": "antīqua",
+    "dictionary": "antīquus, -a, -um",
+    "english": "old, ancient",
+    "note": "nom. f. s. modifying \"urbs\"",
+    "line": 1
+  },
+  {
+    "word": "fuit",
+    "latin": "fuit",
+    "dictionary": "sum, esse, fuī, futūrus",
+    "english": "to be",
+    "note": "3rd s. perf. act. indic.",
+    "line": 1
+  },
+  {
+    "word": "(Tyriī",
+    "latin": "(Tyriī",
+    "dictionary": "Tyrius, -a, -um",
+    "english": "Tyrian, Carthaginian",
+    "note": "nom. m. pl. modifying \"colōnī\"",
+    "line": 1
+  },
+  {
+    "word": "tenuēre",
+    "latin": "tenuēre",
+    "dictionary": "teneō, -ēre, -uī, tentus",
+    "english": "to hold, have, keep; to possess",
+    "note": "tenuēre = tenuērunt: 3rd pl. perf. act. indic.",
+    "line": 1
+  },
+  {
+    "word": "colōnī),",
+    "latin": "colōnī),",
+    "dictionary": "colōnus, colōnī, m.",
+    "english": "colonist",
+    "note": "nom. pl. subject of \"tenuēre\"",
+    "line": 1
+  },
+  {
+    "word": "Karthāgō,",
+    "latin": "Karthāgō,",
+    "dictionary": "Karthāgō, Karthāginis, f.",
+    "english": "Carthage (city in northern Africa)",
+    "note": "nom. s. predicate",
+    "line": 2
+  },
+  {
+    "word": "Ītaliam",
+    "latin": "Ītaliam",
+    "dictionary": "Ītalia, Ītaliae, f.",
+    "english": "Italy",
+    "note": "acc. s. object of \"contrā\"",
+    "line": 2
+  },
+  {
+    "word": "contrā",
+    "latin": "contrā",
+    "dictionary": "contrā (with acc.)",
+    "english": "against; opposite",
+    "note": "prep. governing \"Ītaliam\" and \"ōstia\"",
+    "line": 2
+  },
+  {
+    "word": "Tiberīna",
+    "latin": "Tiberīna",
+    "dictionary": "Tiberīnus, -a, -um",
+    "english": "of the Tiber, Tiber-",
+    "note": "acc. n. pl. modifying \"ōstia\"",
+    "line": 2
+  },
+  {
+    "word": "que",
+    "latin": "que",
+    "dictionary": "-que",
+    "english": "and, both",
+    "note": "",
+    "line": 2
+  },
+  {
+    "word": "longē",
+    "latin": "longē",
+    "dictionary": "longē",
+    "english": "far (away), at a distance",
+    "note": "",
+    "line": 2
+  },
+  {
+    "word": "ōstia,",
+    "latin": "ōstia,",
+    "dictionary": "ōstium, ōstī, n.",
+    "english": "mouth, entrance",
+    "note": "acc. pl. object of \"contrā\"",
+    "line": 3
+  },
+  {
+    "word": "dīves",
+    "latin": "dīves",
+    "dictionary": "dīves, dīvitis (gen.)",
+    "english": "rich; (with gen.) rich in",
+    "note": "nom. f. s. modifying \"Karthāgō\"",
+    "line": 3
+  },
+  {
+    "word": "opum",
+    "latin": "opum",
+    "dictionary": "[ops], opis, f.",
+    "english": "property, wealth, resource",
+    "note": "gen. pl. dependent on \"dīves\"",
+    "line": 3
+  },
+  {
+    "word": "studiīs",
+    "latin": "studiīs",
+    "dictionary": "studium, studī, n.",
+    "english": "eagerness, desire",
+    "note": "abl. pl. specification",
+    "line": 3
+  },
+  {
+    "word": "que",
+    "latin": "que",
+    "dictionary": "-que",
+    "english": "and, both",
+    "note": "",
+    "line": 3
+  },
+  {
+    "word": "asperrima",
+    "latin": "asperrima",
+    "dictionary": "asper, aspera, asperum",
+    "english": "rough, harsh, violent",
+    "note": "superlative nom. f. s. modifying \"Karthāgō\"",
+    "line": 3
+  },
+  {
+    "word": "bellī,",
+    "latin": "bellī,",
+    "dictionary": "bellum, bellī, n.",
+    "english": "war",
+    "note": "gen. s. dependent on \"studiīs\"",
+    "line": 3
+  },
+  {
+    "word": "quam",
+    "latin": "quam",
+    "dictionary": "quī, quae, quod",
+    "english": "who, which, that",
+    "note": "acc. f. s. (referring to \"Karthāgō\") direct object of \"coluisse\"",
+    "line": 4
+  },
+  {
+    "word": "Iūnō",
+    "latin": "Iūnō",
+    "dictionary": "Iūnō, Iūnōnis, f.",
+    "english": "Juno (wife of Jupiter)",
+    "note": "nom. s. subject of \"fertur\"",
+    "line": 4
+  },
+  {
+    "word": "fertur",
+    "latin": "fertur",
+    "dictionary": "ferō, ferre, tulī, lātus ",
+    "english": "to carry, bring; to say",
+    "note": "3rd s. pres. pass. indic.",
+    "line": 4
+  },
+  {
+    "word": "terrīs",
+    "latin": "terrīs",
+    "dictionary": "terra, terrae, f.",
+    "english": "earth, land",
+    "note": "abl. pl. comparison",
+    "line": 4
+  },
+  {
+    "word": "magis",
+    "latin": "magis",
+    "dictionary": "magis",
+    "english": "more",
+    "note": "",
+    "line": 4
+  },
+  {
+    "word": "omnibus",
+    "latin": "omnibus",
+    "dictionary": "omnis, -e",
+    "english": "all, entire, every",
+    "note": "abl. f. pl. modifying \"terrīs\"",
+    "line": 4
+  },
+  {
+    "word": "ūnam",
+    "latin": "ūnam",
+    "dictionary": "ūnus, -a, -um",
+    "english": "one",
+    "note": "acc. f. s. modifying \"quam\"",
+    "line": 4
+  },
+  {
+    "word": "posthabitā",
+    "latin": "posthabitā",
+    "dictionary": "posthabeō, -ēre, -uī, -itus",
+    "english": "to esteem less, neglect",
+    "note": "perf. pass. part. abl. f. s. modifying \"Samō\"",
+    "line": 5
+  },
+  {
+    "word": "coluisse",
+    "latin": "coluisse",
+    "dictionary": "colō, -ere, coluī, cultus",
+    "english": "to cherish, protect",
+    "note": "perf. act. infin. dependent on \"fertur\"",
+    "line": 5
+  },
+  {
+    "word": "Samō:",
+    "latin": "Samō:",
+    "dictionary": "Samos, Samī, f.",
+    "english": "(island off the coast of Asia Minor)",
+    "note": "abl. s. absolute",
+    "line": 5
+  },
+  {
+    "word": "hīc",
+    "latin": "hīc",
+    "dictionary": "hīc",
+    "english": "here, in this place",
+    "note": "",
+    "line": 5
+  },
+  {
+    "word": "illius",
+    "latin": "illius",
+    "dictionary": "ille, illa, illud",
+    "english": "that; he, she, it",
+    "note": "gen. f. s. (referring to Juno) dependent on \"arma\"",
+    "line": 5
+  },
+  {
+    "word": "arma,",
+    "latin": "arma,",
+    "dictionary": "arma, armōrum, n.pl.",
+    "english": "weapons, arms",
+    "note": "nom. pl. predicate",
+    "line": 5
+  },
+  {
+    "word": "hīc",
+    "latin": "hīc",
+    "dictionary": "hīc",
+    "english": "here, in this place",
+    "note": "",
+    "line": 6
+  },
+  {
+    "word": "currus",
+    "latin": "currus",
+    "dictionary": "currus, currūs, m.",
+    "english": "chariot",
+    "note": "nom. s. predicate",
+    "line": 6
+  },
+  {
+    "word": "fuit;",
+    "latin": "fuit;",
+    "dictionary": "sum, esse, fuī, futūrus",
+    "english": "to be",
+    "note": "3rd s. perf. act. indic.",
+    "line": 6
+  },
+  {
+    "word": "hoc",
+    "latin": "hoc",
+    "dictionary": "hic, haec, hoc",
+    "english": "this; he, she, it",
+    "note": "acc. n. s. agreeing with \"rēgnum\"",
+    "line": 6
+  },
+  {
+    "word": "rēgnum",
+    "latin": "rēgnum",
+    "dictionary": "rēgnum, rēgnī, n.",
+    "english": "ruling power; kingdom",
+    "note": "acc. s. subject of \"esse\"",
+    "line": 6
+  },
+  {
+    "word": "dea",
+    "latin": "dea",
+    "dictionary": "dea, deae, f.",
+    "english": "goddess",
+    "note": "nom. s. subject of \"tendit\" and \"fovet\"",
+    "line": 6
+  },
+  {
+    "word": "gentibus",
+    "latin": "gentibus",
+    "dictionary": "gēns, gentis, f.",
+    "english": "race, nation, people",
+    "note": "dat. pl. reference",
+    "line": 6
+  },
+  {
+    "word": "esse,",
+    "latin": "esse,",
+    "dictionary": "sum, esse, fuī, futūrus",
+    "english": "to be",
+    "note": "pres. act. infin. indirect statement",
+    "line": 6
+  },
+  {
+    "word": "sī",
+    "latin": "sī",
+    "dictionary": "sī",
+    "english": "if",
+    "note": "",
+    "line": 7
+  },
+  {
+    "word": "quā",
+    "latin": "quā",
+    "dictionary": "quā",
+    "english": "where, in which; (after sī) in any way",
+    "note": "",
+    "line": 7
+  },
+  {
+    "word": "Fāta",
+    "latin": "Fāta",
+    "dictionary": "fātum, fātī, n.",
+    "english": "destiny, fate; Fate",
+    "note": "nom. pl. subject of \"sinant\"",
+    "line": 7
+  },
+  {
+    "word": "sinant,",
+    "latin": "sinant,",
+    "dictionary": "sinō, -ere, sīvī, situs",
+    "english": "to allow, permit",
+    "note": "3rd pl. pres. act. subj.",
+    "line": 7
+  },
+  {
+    "word": "iam",
+    "latin": "iam",
+    "dictionary": "iam",
+    "english": "now; already",
+    "note": "",
+    "line": 7
+  },
+  {
+    "word": "tum",
+    "latin": "tum",
+    "dictionary": "tum",
+    "english": "then, at that time",
+    "note": "",
+    "line": 7
+  },
+  {
+    "word": "tendit",
+    "latin": "tendit",
+    "dictionary": "tendō, -ere, tetendī, tentus",
+    "english": "to stretch out, extend; to aim; to strive",
+    "note": "3rd s. pres. act. indic.",
+    "line": 7
+  },
+  {
+    "word": "que",
+    "latin": "que",
+    "dictionary": "-que",
+    "english": "and, both",
+    "note": "",
+    "line": 7
+  },
+  {
+    "word": "fovet",
+    "latin": "fovet",
+    "dictionary": "foveō, -ēre, fōvī, fōtus",
+    "english": "to cherish the hope",
+    "note": "3rd s. pres. act. indic.",
+    "line": 7
+  },
+  {
+    "word": "que.",
+    "latin": "que.",
+    "dictionary": "-que",
+    "english": "and, both",
+    "note": "",
+    "line": 7
+  },
+  {
+    "word": "Prōgeniem",
+    "latin": "Prōgeniem",
+    "dictionary": "prōgeniēs, prōgeniēī, f.",
+    "english": "race",
+    "note": "acc. s. subject of \"dūcī\"",
+    "line": 8
+  },
+  {
+    "word": "sed",
+    "latin": "sed",
+    "dictionary": "sed",
+    "english": "but",
+    "note": "",
+    "line": 8
+  },
+  {
+    "word": "enim",
+    "latin": "enim",
+    "dictionary": "enim",
+    "english": "for, in fact",
+    "note": "",
+    "line": 8
+  },
+  {
+    "word": "Troiānō",
+    "latin": "Troiānō",
+    "dictionary": "Troiānus, -a, -um",
+    "english": "Trojan",
+    "note": "abl. m. s. modifying \"sanguine\"",
+    "line": 8
+  },
+  {
+    "word": "ā",
+    "latin": "ā",
+    "dictionary": "ā, ab (with abl.)",
+    "english": "away from, from; by",
+    "note": "prep. governing \"sanguine\"",
+    "line": 8
+  },
+  {
+    "word": "sanguine",
+    "latin": "sanguine",
+    "dictionary": "sanguis, sanguinis, m.",
+    "english": "blood; descent, stock",
+    "note": "object of \"ā\"",
+    "line": 8
+  },
+  {
+    "word": "dūcī",
+    "latin": "dūcī",
+    "dictionary": "dūcō, -ere, dūxī, ductus",
+    "english": "to lead, take; to make, form",
+    "note": "pres. pass. infin. indirect statement",
+    "line": 8
+  },
+  {
+    "word": "audierat",
+    "latin": "audierat",
+    "dictionary": "audiō, -īre, -iī, -ītus",
+    "english": "to hear, listen (to)",
+    "note": "3rd s. pluperf. act. indic.",
+    "line": 9
+  },
+  {
+    "word": "Tyriās",
+    "latin": "Tyriās",
+    "dictionary": "Tyrius, -a, -um",
+    "english": "Tyrian, Carthaginian",
+    "note": "acc. f. pl. modifying \"arcēs\"",
+    "line": 9
+  },
+  {
+    "word": "ōlim",
+    "latin": "ōlim",
+    "dictionary": "ōlim",
+    "english": "one day",
+    "note": "",
+    "line": 9
+  },
+  {
+    "word": "quae",
+    "latin": "quae",
+    "dictionary": "quī, quae, quod",
+    "english": "who, which, that",
+    "note": "nom. f. s. (referring to \"Prōgeniem\") subject of \"verteret\"",
+    "line": 9
+  },
+  {
+    "word": "verteret",
+    "latin": "verteret",
+    "dictionary": "vertō, -ere, vertī, versus",
+    "english": "to turn; to overturn",
+    "note": "3rd s. imperf. act. subj.",
+    "line": 9
+  },
+  {
+    "word": "arcēs;",
+    "latin": "arcēs;",
+    "dictionary": "arx, arcis, f.",
+    "english": "citadel",
+    "note": "acc. pl. direct object of \"verteret\"",
+    "line": 9
+  },
+  {
+    "word": "hinc",
+    "latin": "hinc",
+    "dictionary": "hinc",
+    "english": "from here, from this place, from this source",
+    "note": "",
+    "line": 10
+  },
+  {
+    "word": "populum",
+    "latin": "populum",
+    "dictionary": "populus, populī, m.",
+    "english": "people, nation",
+    "note": "acc. s. subject of \"ventūrum [esse]\"",
+    "line": 10
+  },
+  {
+    "word": "lātē",
+    "latin": "lātē",
+    "dictionary": "lātē",
+    "english": "widely, extensively, far and wide",
+    "note": "",
+    "line": 10
+  },
+  {
+    "word": "rēgem",
+    "latin": "rēgem",
+    "dictionary": "rēx, rēgis, m.",
+    "english": "ruler, king; leader",
+    "note": "acc. s. in apposition to \"populum\"",
+    "line": 10
+  },
+  {
+    "word": "bellō",
+    "latin": "bellō",
+    "dictionary": "bellum, bellī, n.",
+    "english": "war",
+    "note": "abl. s. specification",
+    "line": 10
+  },
+  {
+    "word": "que",
+    "latin": "que",
+    "dictionary": "-que",
+    "english": "and, both",
+    "note": "",
+    "line": 10
+  },
+  {
+    "word": "superbum",
+    "latin": "superbum",
+    "dictionary": "superbus, -a, -um",
+    "english": "haughty, arrogant; proud",
+    "note": "acc. m. s. modifying \"populum\"",
+    "line": 10
+  },
+  {
+    "word": "ventūrum",
+    "latin": "ventūrum",
+    "dictionary": "veniō, -īre, vēnī, ventūrus",
+    "english": "to come",
+    "note": "ventūrum = ventūrum esse: fut. act. infin. indirect statement",
+    "line": 11
+  },
+  {
+    "word": "excidiō",
+    "latin": "excidiō",
+    "dictionary": "excidium, excidī, n.",
+    "english": "ruin, destruction",
+    "note": "dat. s. purpose",
+    "line": 11
+  },
+  {
+    "word": "Libyae;",
+    "latin": "Libyae;",
+    "dictionary": "Libya, Libyae, f.",
+    "english": "(region of Northern Africa)",
+    "note": "Libyae = Carthāginī: dat. s. reference",
+    "line": 11
+  },
+  {
+    "word": "sīc",
+    "latin": "sīc",
+    "dictionary": "sīc",
+    "english": "thus, so; in this way",
+    "note": "",
+    "line": 11
+  },
+  {
+    "word": "volvere",
+    "latin": "volvere",
+    "dictionary": "volvō, -ere, volvī, volūtus",
+    "english": "to roll, roll along; to unroll",
+    "note": "pres. act. infin. indirect statement",
+    "line": 11
+  },
+  {
+    "word": "Parcās.",
+    "latin": "Parcās.",
+    "dictionary": "Parcae, Parcārum, f.pl.",
+    "english": "Fates",
+    "note": "acc. pl. subject of \"volvere\"",
+    "line": 11
+  }
+]
