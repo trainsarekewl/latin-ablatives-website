@@ -1,6 +1,6 @@
 const SECTIONS = [
-  { label: 'Aeneid I · 1–11',  url: './aeneid_i_1-11.json' },
-  { label: 'Aeneid I · 12–22', url: './aeneid_i_12-22.json' },
+  { label: 'Aeneid I 1–11',  url: './aeneid_i_1-11.json' },
+  { label: 'Aeneid I 12–22', url: './aeneid_i_12-22.json' },
 ];
 const STORAGE_KEY = 'latin-quiz-v1';
 
@@ -18,9 +18,25 @@ function freshStore() {
   return { streak: 0, total: 0, words: {}, cats: {}, queue: [] };
 }
 
+function normalizeUse(use) {
+  if (!use) return use;
+  if (/\bobject of\b/i.test(use)) return 'object of a preposition';
+  if (/\bmodifying\b/i.test(use)) return 'modifying a noun';
+  return use.replace(/"/g, '').trim();
+}
+
 function loadStore() {
   try {
-    return { ...freshStore(), ...JSON.parse(localStorage.getItem(STORAGE_KEY)) };
+    const s = { ...freshStore(), ...JSON.parse(localStorage.getItem(STORAGE_KEY)) };
+    // Migrate old specific category keys (e.g. 'modifying "nūmine"') to normalized ones.
+    const cats = {};
+    for (const [cat, val] of Object.entries(s.cats || {})) {
+      const key = normalizeUse(cat);
+      if (cats[key]) { cats[key].c += val.c; cats[key].w += val.w; }
+      else cats[key] = { ...val };
+    }
+    s.cats = cats;
+    return s;
   } catch {
     return freshStore();
   }
@@ -42,8 +58,8 @@ function parseAblative(note) {
 
   let use = m[1].trim() || null;
   if (use) {
-    use = use.replace(/object of "[^"]*"/, 'object of a preposition');
-    use = use.replace(/modifying "[^"]*"/, 'modifying a noun');
+    use = use.replace(/\bobject of\b.*/i, 'object of a preposition');
+    use = use.replace(/\bmodifying\b.*/i, 'modifying a noun');
     use = use.replace(/"/g, '').trim();
   }
   return { isAblative: true, ablativeUse: use };
@@ -142,9 +158,9 @@ function pickWord(pool) {
   return weighted[Math.floor(Math.random() * weighted.length)];
 }
 
-// 1-3 lines around
+// 2 lines before and after
 function contextHTML(target) {
-  const ctx = [target.line - 1, target.line, target.line + 1].filter(n => byLine[n]);
+  const ctx = [target.line - 2, target.line - 1, target.line, target.line + 1, target.line + 2].filter(n => byLine[n]);
   return ctx.map(n =>
     `<div class="line">` +
     `<span class="ln">${n}</span>` +
@@ -210,22 +226,30 @@ function nextQuestion(mode) {
 
   if (mode === 'A') {
     container.innerHTML =
-      `<div class="ctx">${contextHTML(word)}</div>` +
-      `<p class="prompt">Is <em>${esc(bare(word.word))}</em> ablative?</p>` +
-      `<div class="ans-row">` +
-        `<button class="btn btn-yn yes" data-ans="yes">Yes</button>` +
-        `<button class="btn btn-yn no"  data-ans="no">No</button>` +
-      `</div>` +
-      `<div class="result hidden"></div>`;
+      `<div class="quiz-layout">` +
+        `<div class="quiz-text"><div class="ctx">${contextHTML(word)}</div></div>` +
+        `<div class="quiz-questions">` +
+          `<p class="prompt">Is <em>${esc(bare(word.word))}</em> ablative?</p>` +
+          `<div class="ans-row">` +
+            `<button class="btn btn-yn yes" data-ans="yes">Yes</button>` +
+            `<button class="btn btn-yn no"  data-ans="no">No</button>` +
+          `</div>` +
+          `<div class="result hidden"></div>` +
+        `</div>` +
+      `</div>`;
   } else {
     const btns = ablUses.map(u =>
       `<button class="btn btn-use" data-ans="${esc(u)}">${esc(u)}</button>`
     ).join('');
     container.innerHTML =
-      `<div class="ctx">${contextHTML(word)}</div>` +
-      `<p class="prompt">What is the ablative use of <em>${esc(bare(word.word))}</em>?</p>` +
-      `<div class="ans-col">${btns}</div>` +
-      `<div class="result hidden"></div>`;
+      `<div class="quiz-layout">` +
+        `<div class="quiz-text"><div class="ctx">${contextHTML(word)}</div></div>` +
+        `<div class="quiz-questions">` +
+          `<p class="prompt">What is the ablative use of <em>${esc(bare(word.word))}</em>?</p>` +
+          `<div class="ans-col">${btns}</div>` +
+          `<div class="result hidden"></div>` +
+        `</div>` +
+      `</div>`;
   }
 }
 
